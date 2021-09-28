@@ -46,7 +46,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md')
 return false
 end
 if text == '🌚💔' or text == '💔🌚' or text == '🚶‍♂💔' or text == '💔' or text == '😔💔' or text == '🚶‍♀💔' or text == '😭' then 
-dev yousef =  "شبّيي اﻟ̣̣פﻟ̣̣و 𖠙 😿💔"
+dev yousef =  "سلامة قلبك 𖠙 😿💔"
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md') 
 return false
 end
@@ -56,7 +56,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md')
 return false
 end
 if text == 'هلو' or text == 'هلاو' or text == 'هلا' or text == 'هلاوو' or text == 'هيلاو' or text == 'هيلاوو' or text == 'هلاا' then 
-local dev yousef = {"اࠗط็لق֯ق֯ هٞللاࠗ୨و 𖠙 🤤♥️" ,"هۂَلاا نۨہٰورتت يعمۘري 𖠙 🤤♥️" } 
+local dev yousef = {"اࠗط็لق֯ق֯ هٞللاࠗ୨و 𖠙 🤤♥️" ,"هۂَلاا نۨہٰورتت ياعمۘري 𖠙 🤤♥️" } 
 DevAbs2 = math.random(#dev yousef) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef[DevAbs2] , 1, 'md') 
 return false
@@ -88,7 +88,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md')
 return false
 end
 if text == 'اكلك' or text == 'اكلج' or text == 'اكلكم' then 
-dev yousef =  "ڪوولُِ مآڪوولُِ لُِآحٍدِ 𖠙 😉♥️"
+dev yousef =  "قـوولُِ مآقـوولُِ لُِآحٍدِ 𖠙 😉♥️"
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md')
 return false
 end

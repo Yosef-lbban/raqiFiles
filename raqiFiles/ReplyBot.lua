@@ -72,8 +72,8 @@ dev yousef =  "مْوٌجہوٌدِ يہمْگُ يحلوُ 𖠙 😉♥️"
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md') 
 return false
 end
-if text == 'بوت عواي' or text == 'بوت زربه' or text == 'البوت عاوي' or text == 'البوت زربه' then
-dev yousef =  "اطردكك تجرب ؟ ، 😕🔪"
+if text == 'بوت عواي' or text == 'بوت زربه' or text == 'البوت عاوي'or text == 'البوت' or text == 'البوت زربه' then
+dev yousef =  "لا تقول البوت لا أطردك ؟ ، 😕🔪"
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md') 
 return false
 end

@@ -2,7 +2,7 @@ local function Reply(msg)
 local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
 if not DevAbs:get(raqi..'Abs:Lock:Reply'..msg.chat_id_) then
-if text == "انجب" or text == "نجب" or text == "انجبي" or text == "نجبي" or text == "انجبو" or text == "نجبو" then
+if text == "اسكت" or text == "سكت" or text == "اسكتي" or text == "سكتي" or text == "اسكتو" or text == "سكتو" then
 if SudoId(msg.sender_user_id_) then
 rd = 'مطوريي اغلط شكد متريد نورتنه ، ♥️💪🏿'
 elseif SudoBot(msg.sender_user_id_) then

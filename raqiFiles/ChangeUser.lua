@@ -7,7 +7,7 @@ if result.id_ then
 local abbs = DevAbs:get("dev yousef:User"..result.id_)
 if not result.username_ then 
 if abbs then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, "حذف معرفه خمطو بسرعه، 😹💔 \nهذا معرفه @"..abbs.."", 1, 'html')
+Dev_Abs(msg.chat_id_, msg.id_, 1, "حذف معرفه اخطفوه بسرعه، 😹💔 \nهذا معرفه @"..abbs.."", 1, 'html')
 DevAbs:del("dev yousef:User"..result.id_) 
 end
 end

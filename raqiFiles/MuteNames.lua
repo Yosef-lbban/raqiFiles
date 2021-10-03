@@ -21,18 +21,18 @@ send(msg.chat_id_, msg.id_, '⌁︙تم الغاء كتم الاسم ↫ '..UnMu
 DevAbs:srem(raqi.."Abs:Mute:Names"..msg.chat_id_, UnMuteName)
 end
 end
-if text == "مسح الاسماء المكتومه" and Constructor(msg) then
+if text == "مسح الاسماء المكتومة" and Constructor(msg) then
 DevAbs:del(raqi.."Abs:Mute:Names"..msg.chat_id_)
-send(msg.chat_id_, msg.id_, "⌁︙تم مسح الاسماء المكتومه")
+send(msg.chat_id_, msg.id_, "⌁︙تم مسح الاسماء المكتومة")
 end
-if text == "الاسماء المكتومه" and Constructor(msg) then
+if text == "الاسماء المكتومة" and Constructor(msg) then
 local AllNames = DevAbs:smembers(raqi.."Abs:Mute:Names"..msg.chat_id_)
-Text = "\n⌁︙قائمة الاسماء المكتومه ↫ ⤈\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+Text = "\n⌁︙قائمة الاسماء المكتومة ↫ ⤈\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(AllNames) do
 Text = Text..""..k.."~ : (["..v.."])\n"
 end
 if #AllNames == 0 then
-Text = "⌁︙لاتوجد اسماء مكتومه"
+Text = "⌁︙لاتوجد اسماء مكتومة"
 end
 send(msg.chat_id_, msg.id_, Text)
 end
@@ -57,11 +57,11 @@ end
 
 if Constructor(msg) then
 if text == "تفعيل كتم الاسم" or text == "تفعيل كتم الاسماء" then
-send(msg.chat_id_, msg.id_, '⌁︙تم التفعيل سيتم كتم العضو الذي يضع الاسماء المكتومه')
+send(msg.chat_id_, msg.id_, '⌁︙تم التفعيل سيتم كتم العضو الذي يضع الاسماء المكتومة')
 DevAbs:set(raqi.."Abs:Lock:MuteNames"..msg.chat_id_,true)
 end
 if text == "تعطيل كتم الاسم" or text == "تعطيل كتم الاسماء" then
-send(msg.chat_id_, msg.id_, '⌁︙تم تعطيل سيتم كتم العضو الذي يضع الاسماء المكتومه')
+send(msg.chat_id_, msg.id_, '⌁︙تم تعطيل سيتم كتم العضو الذي يضع الاسماء المكتومة')
 DevAbs:del(raqi.."Abs:Lock:MuteNames"..msg.chat_id_)
 end
 end

@@ -7,7 +7,7 @@ if result.id_ then
 local abbs = DevAbs:get("dev yousef:Photo"..result.id_)
 if not result.profile_photo_ then 
 if abbs then 
-Dev_Abs(msg.chat_id_, msg.id_, 1, "حذف كل صوره ، 😹💔", 1, 'html')
+Dev_Abs(msg.chat_id_, msg.id_, 1, "الحق الحق حذف كل صوره ، 😹💔", 1, 'html')
 DevAbs:del("dev yousef:Photo"..result.id_) 
 end
 end

@@ -2,9 +2,9 @@ local function Reply(msg)
 local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
 if not DevAbs:get(raqi..'Abs:Lock:Reply'..msg.chat_id_) then
-if text == "اسكت" or text == "سكت" or text == "اسكتي" or text == "سكتي" or text == "اسكتو" or text == "سكتو" then
+if text == "اسكت" or text == "سكت" or text == " انظم" or text == "سكتي" or text == "اسكتو" or text == "سكتو" then
 if SudoId(msg.sender_user_id_) then
-rd = 'مطوريي اغلط شكد متريد نورتنه ، ♥️💪🏿'
+rd = ' حبيبي مطوري أنت وحدك تغلط علي ، ♥️💪🏿'
 elseif SudoBot(msg.sender_user_id_) then
 rd = 'احترم نفسكك لا عبالكك رافعيك مطور ، 🖕🏿♥️'
 elseif ManagerAll(msg.sender_user_id_) then
@@ -14,7 +14,7 @@ rd = 'راح اسامحكك هلمره لانك ادمن ، ☝🏿♥️'
 elseif VipAll(msg.sender_user_id_) then
 rd = 'راح احترمكك تره بس هلمره لانك مميز عندي ، ☝🏿♥️'
 elseif AbsConstructor(msg.sender_user_id_, msg.chat_id_) then
-rd = 'تاج راسيي غير انت منشئ المجموعه ،🖐🏿♥️'
+rd = 'لو ما كنت أنت صاحب المجموعة كنت وريتك ،🖐🏿♥️'
 elseif Constructor(msg.sender_user_id_, msg.chat_id_) then
 rd = 'تاج راسيي انت المنشئ الاساسي ،🖐🏿♥️'
 elseif BasicConstructor(msg.sender_user_id_, msg.chat_id_) then

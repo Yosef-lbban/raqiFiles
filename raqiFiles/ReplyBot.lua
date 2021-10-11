@@ -87,7 +87,7 @@ dev yousef =  "شحۡسۜيت مۘنۨہ هيجۚ ּكتبت ؟ 🌝♥️"
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md') 
 return false
 end
-if text == 'اكلك' or text == 'اكلج' or text == 'اكلكم' then 
+if text == 'اقول' or text == 'اقلك' or text == 'اقلكم' then 
 dev yousef =  "قـوولُِ مآقـوولُِ لُِآحٍدِ 𖠙 😉♥️"
 Dev_Abs(msg.chat_id_, msg.id_, 1, dev yousef, 1, 'md')
 return false
